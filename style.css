@@ -77,6 +77,12 @@ button {
   background-position: center;
 }
 
+.main-info {
+  width: 100%;
+  max-width: 320px;
+  margin: auto;
+}
+
 .header__button--menu {
   background-image: url("img/menu.svg");
 }
@@ -143,6 +149,9 @@ button {
     display: flex;
     justify-content: space-between;
     padding: 32px 16px 0 0;
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
   }
 
   .main-info__container {
@@ -164,6 +173,7 @@ button {
 @media (min-width: 1120px) {
   .container {
     padding: 0 32px;
+    margin: 0 auto;
   }
 
   .body__header {
@@ -186,7 +196,10 @@ button {
     flex-wrap: wrap;
   }
   .main-info {
+    width: 100%;
+    max-width: 1120px;
     padding: 16px 16px 0 0;
+    margin: 0 auto;
   }
 
   .title__span {
